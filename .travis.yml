@@ -1,0 +1,31 @@
+dist: bionic
+
+language: generic
+
+services: docker
+
+script:
+  - sudo apt update -y && sudo apt install -y wget curl jq unzip ffmpeg fftw3
+  - chmod +x download_inspector.sh
+  - ./download_inspector.sh
+  - chmod +x gen_pitches.sh
+  - chmod +x pitch_detector
+    # TODO: move to before_before deploy. Now inspector fails if there are no *.pitch files in courses
+  - ./gen_pitches.sh VietnameseCrashCourse
+  - unzip inspector.zip
+  - docker run -v $TRAVIS_BUILD_DIR:/vietnamese_courses lamtev/java:latest /bin/bash -c " cd vietnamese_courses && ./inspector/bin/inspector VietnameseCrashCourse "
+
+before_deploy:
+  - docker run -v $TRAVIS_BUILD_DIR:/vietnamese_courses lamtev/java:latest /bin/bash -c " cd vietnamese_courses && ./inspector/bin/inspector -info . $TRAVIS_TAG "
+  - sudo chmod 777 ${TRAVIS_BUILD_DIR}/info.json
+  - sudo chmod 777 ${TRAVIS_BUILD_DIR}/VietnameseCrashCourse.zip
+
+deploy:
+  provider: releases
+  api_key: "$GITHUB_DEPLOY_TOKEN"
+  file:
+    - ${TRAVIS_BUILD_DIR}/info.json
+    - ${TRAVIS_BUILD_DIR}/VietnameseCrashCourse.zip
+  skip_cleanup: true
+  on:
+    tags: true
