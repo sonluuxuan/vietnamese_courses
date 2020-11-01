@@ -23,7 +23,7 @@
                     "id": "1",
                     "instructions": "Get familiar with the language!",
                     "text": "bạn khỏe không",
-                    "sound": "1/1.wav",
+                    "sound": "1/1.mp3",
                     "pitch": "1/1.pitch",
                     "textMarkup": "1/1.text"
                 },
@@ -31,7 +31,7 @@
                     "id": "2",
                     "instructions": "Get familiar with the language!",
                     "text": "chào buổi sáng",
-                    "sound": "1/2.wav",
+                    "sound": "1/2.mp3",
                     "pitch": "1/2.pitch",
                     "textMarkup": "1/2.text"
                 },
@@ -39,7 +39,7 @@
                     "id": "3",
                     "instructions": "Get familiar with the language!",
                     "text": "chúc một ngày tốt lành",
-                    "sound": "1/3.wav",
+                    "sound": "1/3.mp3",
                     "pitch": "1/3.pitch",
                     "textMarkup": "1/3.text"
                 },
@@ -47,7 +47,7 @@
                     "id": "4",
                     "instructions": "Get familiar with the language!",
                     "text": "chúc ngủ ngon",
-                    "sound": "1/4.wav",
+                    "sound": "1/4.mp3",
                     "pitch": "1/4.pitch",
                     "textMarkup": "1/4.text"
                 },
@@ -55,7 +55,7 @@
                     "id": "5",
                     "instructions": "Get familiar with the language!",
                     "text": "đừng lo",
-                    "sound": "1/5.wav",
+                    "sound": "1/5.mp3",
                     "pitch": "1/5.pitch",
                     "textMarkup": "1/5.text"
                 },
@@ -63,7 +63,7 @@
                     "id": "6",
                     "instructions": "Get familiar with the language!",
                     "text": "giữ liên lạc nhé",
-                    "sound": "1/6.wav",
+                    "sound": "1/6.mp3",
                     "pitch": "1/6.pitch",
                     "textMarkup": "1/6.text"
                 },
@@ -71,7 +71,7 @@
                     "id": "7",
                     "instructions": "Get familiar with the language!",
                     "text": "hẹn gặp ngày mai",
-                    "sound": "1/7.wav",
+                    "sound": "1/7.mp3",
                     "pitch": "1/7.pitch",
                     "textMarkup": "1/7.text"
                 },
@@ -79,7 +79,7 @@
                     "id": "8",
                     "instructions": "Get familiar with the language!",
                     "text": "hẹn gặp sau",
-                    "sound": "1/8.wav",
+                    "sound": "1/8.mp3",
                     "pitch": "1/8.pitch",
                     "textMarkup": "1/8.text"
                 },
@@ -87,7 +87,7 @@
                     "id": "9",
                     "instructions": "Get familiar with the language!",
                     "text": "lâu rồi không gặp bạn",
-                    "sound": "1/9.wav",
+                    "sound": "1/9.mp3",
                     "pitch": "1/9.pitch",
                     "textMarkup": "1/9.text"
                 },
@@ -95,7 +95,7 @@
                     "id": "10",
                     "instructions": "Get familiar with the language!",
                     "text": "tạm biệt",
-                    "sound": "1/10.wav",
+                    "sound": "1/10.mp3",
                     "pitch": "1/10.pitch",
                     "textMarkup": "1/10.text"
                 },
@@ -103,7 +103,7 @@
                     "id": "11",
                     "instructions": "Get familiar with the language!",
                     "text": "tất nhiên rồi",
-                    "sound": "1/11.wav",
+                    "sound": "1/11.mp3",
                     "pitch": "1/11.pitch",
                     "textMarkup": "1/11.text"
                 },
@@ -111,7 +111,7 @@
                     "id": "12",
                     "instructions": "Get familiar with the language!",
                     "text": "tôi vẫn khỏe",
-                    "sound": "1/12.wav",
+                    "sound": "1/12.mp3",
                     "pitch": "1/12.pitch",
                     "textMarkup": "1/12.text"
                 },
@@ -119,7 +119,7 @@
                     "id": "13",
                     "instructions": "Get familiar with the language!",
                     "text": "xin chào",
-                    "sound": "1/13.wav",
+                    "sound": "1/13.mp3",
                     "pitch": "1/13.pitch",
                     "textMarkup": "1/13.text"
                 }
