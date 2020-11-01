@@ -7,6 +7,7 @@ services: docker
 script:
   - sudo apt update -y && sudo apt install -y wget curl jq unzip ffmpeg fftw3
   - sudo apt install python
+  - which python
   - chmod +x download_inspector.sh
   - ./download_inspector.sh
   - chmod +x gen_pitches.sh
@@ -18,7 +19,7 @@ script:
   - docker run -v $TRAVIS_BUILD_DIR:/vietnamese_courses lamtev/java:latest /bin/bash -c " cd vietnamese_courses && ./inspector/bin/inspector VietnameseCrashCourse "
 
 before_deploy:
-  - docker run -v $TRAVIS_BUILD_DIR:/vietnamese_courses lamtev/java:latest /bin/bash -c " cd vietnamese_courses && ./inspector/bin/inspector -info . $TRAVIS_TAG && ./replace_json.sh "
+  - docker run -v $TRAVIS_BUILD_DIR:/vietnamese_courses lamtev/java:latest /bin/bash -c " cd vietnamese_courses && ./inspector/bin/inspector -info . $TRAVIS_TAG "
   - sudo chmod 777 ${TRAVIS_BUILD_DIR}/info.json
   - sudo chmod 777 ${TRAVIS_BUILD_DIR}/VietnameseCrashCourse.zip
 
