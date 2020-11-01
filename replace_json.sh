@@ -1,4 +1,4 @@
-/usr/bin/python modify_json.py info.json
+$1 modify_json.py info.json
 
 rm -f info.json
 mv info2.json info.json
