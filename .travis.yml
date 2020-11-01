@@ -15,12 +15,14 @@ script:
     # TODO: move to before_before deploy. Now inspector fails if there are no *.pitch files in courses
   - ./gen_pitches.sh VietnameseCrashCourse
   - unzip inspector.zip
-  - docker run -v $TRAVIS_BUILD_DIR:/vietnamese_courses lamtev/java:latest /bin/bash -c " cd vietnamese_courses && ./inspector/bin/inspector VietnameseCrashCourse "
+  - docker run -v $TRAVIS_BUILD_DIR:/vietnamese_courses lamtev/java:latest /bin/bash -c " cd vietnamese_courses && ./inspector/bin/inspector VietnameseCrashCourse && ./inspector/bin/inspector CrashCourse && ./inspector/bin/inspector StudyIntonation "
 
 before_deploy:
   - docker run -v $TRAVIS_BUILD_DIR:/vietnamese_courses lamtev/java:latest /bin/bash -c " cd vietnamese_courses && ./inspector/bin/inspector -info . $TRAVIS_TAG && ./replace_json.sh "
   - sudo chmod 777 ${TRAVIS_BUILD_DIR}/info.json
   - sudo chmod 777 ${TRAVIS_BUILD_DIR}/VietnameseCrashCourse.zip
+  - sudo chmod 777 ${TRAVIS_BUILD_DIR}/CrashCourse.zip
+  - sudo chmod 777 ${TRAVIS_BUILD_DIR}/StudyIntonation.zip
 
 deploy:
   provider: releases
@@ -28,6 +30,8 @@ deploy:
   file:
     - ${TRAVIS_BUILD_DIR}/info.json
     - ${TRAVIS_BUILD_DIR}/VietnameseCrashCourse.zip
+    - ${TRAVIS_BUILD_DIR}/CrashCourse.zip
+    - ${TRAVIS_BUILD_DIR}/StudyIntonation.zip
   skip_cleanup: true
   on:
     tags: true
