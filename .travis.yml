@@ -17,6 +17,8 @@ script:
 
 before_deploy:
   - docker run -v $TRAVIS_BUILD_DIR:/vietnamese_courses lamtev/java:latest /bin/bash -c " cd vietnamese_courses && ./inspector/bin/inspector -info . $TRAVIS_TAG "
+  - chmod +x replace_json.sh
+  - ./replace_json.sh
   - sudo chmod 777 ${TRAVIS_BUILD_DIR}/info.json
   - sudo chmod 777 ${TRAVIS_BUILD_DIR}/VietnameseCrashCourse.zip
 
