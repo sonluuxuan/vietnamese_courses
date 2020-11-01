@@ -6,7 +6,7 @@ services: docker
 
 script:
   - sudo apt update -y && sudo apt install -y wget curl jq unzip ffmpeg fftw3
-  - sudo apt install python3
+  - sudo apt install python
   - chmod +x download_inspector.sh
   - ./download_inspector.sh
   - chmod +x gen_pitches.sh
