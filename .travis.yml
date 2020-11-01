@@ -13,6 +13,8 @@ script:
   - chmod +x pitch_detector
   - chmod +x replace_json.sh
     # TODO: move to before_before deploy. Now inspector fails if there are no *.pitch files in courses
+  - ./gen_pitches.sh StudyIntonation
+  - ./gen_pitches.sh CrashCourse
   - ./gen_pitches.sh VietnameseCrashCourse
   - unzip inspector.zip
   - docker run -v $TRAVIS_BUILD_DIR:/vietnamese_courses lamtev/java:latest /bin/bash -c " cd vietnamese_courses && ./inspector/bin/inspector VietnameseCrashCourse && ./inspector/bin/inspector CrashCourse && ./inspector/bin/inspector StudyIntonation "
