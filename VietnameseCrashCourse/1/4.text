@@ -1,14 +1,14 @@
 [
   {
-    "fragment": "chúc",
-    "start": 0.0,
-    "stop": 0.217,
-    "catchword": "true"
+    "fragment": "chào buổi",
+    "start": "0:0",
+    "stop": "0:502",
+    "catchword": "false"
   },
   {
-    "fragment": "ngủ ngon",
-    "start": 0.217,
-    "stop": 1.128,
+    "fragment": "sáng",
+    "start": "0:502",
+    "stop": "1:136",
     "catchword": "true"
   }
 ]

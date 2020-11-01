@@ -1,14 +1,20 @@
 [
   {
-    "fragment": "tôi",
-    "start": 0.0,
-    "stop": 0.298,
-    "catchword": "false"
+    "fragment": "tất",
+    "start": "0:0",
+    "stop": "0:175",
+    "catchword": "true"
   },
   {
-    "fragment": "khỏe",
-    "start": 0.298,
-    "stop": 0.981,
+    "fragment": "nhiên",
+    "start": "0:175",
+    "stop": "0:487",
     "catchword": "true"
+  },
+  {
+    "fragment": "rồi",
+    "start": "0:487",
+    "stop": "1:085",
+    "catchword": "false"
   }
 ]

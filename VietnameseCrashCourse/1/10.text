@@ -1,14 +1,14 @@
 [
   {
-    "fragment": "tạm",
-    "start": 0.0,
-    "stop": 0.174,
-    "catchword": "true"
+    "fragment": "hẹn gặp",
+    "start": "0:0",
+    "stop": "0:377",
+    "catchword": "false"
   },
   {
-    "fragment": "biệt",
-    "start": 0.174,
-    "stop": 0.752,
+    "fragment": "sau",
+    "start": "0:377",
+    "stop": "1:066",
     "catchword": "true"
   }
 ]

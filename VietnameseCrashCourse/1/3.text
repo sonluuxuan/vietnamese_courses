@@ -1,20 +1,20 @@
 [
   {
-    "fragment": "chúc",
-    "start": 0.0,
-    "stop": 0.212,
-    "catchword": "true"
-  },
-  {
-    "fragment": "một ngày",
-    "start": 0.212,
-    "stop": 0.694,
+    "fragment": "bạn",
+    "start": "0:0",
+    "stop": "0:414",
     "catchword": "false"
   },
   {
-    "fragment": "tốt lành",
-    "start": 0.694,
-    "stop": 1.572,
+    "fragment": "khỏe",
+    "start": "0:414",
+    "stop": "0:683",
+    "catchword": "true"
+  },
+  {
+    "fragment": "không",
+    "start": "0:683",
+    "stop": "1:201",
     "catchword": "true"
   }
 ]

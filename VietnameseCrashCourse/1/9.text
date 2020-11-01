@@ -1,20 +1,14 @@
 [
   {
-    "fragment": "lâu rồi",
-    "start": 0.0,
-    "stop": 0.638,
-    "catchword": "true"
-  },
-  {
-    "fragment": "không gặp",
-    "start": 0.638,
-    "stop": 1.003,
-    "catchword": "true"
-  },
-  {
-    "fragment": "bạn",
-    "start": 1.003,
-    "stop": 1.577,
+    "fragment": "hẹn gặp",
+    "start": "0:0",
+    "stop": "0:477",
     "catchword": "false"
+  },
+  {
+    "fragment": "ngày mai",
+    "start": "0:477",
+    "stop": "1:365",
+    "catchword": "true"
   }
 ]

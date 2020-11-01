@@ -1,8 +1,20 @@
 [
   {
-    "fragment": "đừng lo",
-    "start": 0.0,
-    "stop": 1.03,
+    "fragment": "chúc",
+    "start": "0:0",
+    "stop": "0:212",
+    "catchword": "true"
+  },
+  {
+    "fragment": "một ngày",
+    "start": "0:212",
+    "stop": "0:694",
+    "catchword": "false"
+  },
+  {
+    "fragment": "tốt lành",
+    "start": "0:694",
+    "stop": "1:572",
     "catchword": "true"
   }
 ]

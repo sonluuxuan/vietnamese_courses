@@ -1,14 +1,14 @@
 [
   {
-    "fragment": "giữ liên lạc",
-    "start": 0.0,
-    "stop": 0.628,
+    "fragment": "chúc",
+    "start": "0:0",
+    "stop": "0:217",
     "catchword": "true"
   },
   {
-    "fragment": "nhé",
-    "start": 0.628,
-    "stop": 1.288,
-    "catchword": "false"
+    "fragment": "ngủ ngon",
+    "start": "0:217",
+    "stop": "1:128",
+    "catchword": "true"
   }
 ]

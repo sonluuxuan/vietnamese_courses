@@ -1,20 +1,14 @@
 [
   {
-    "fragment": "bạn",
-    "start": 0.0,
-    "stop": 0.414,
-    "catchword": "false"
-  },
-  {
-    "fragment": "khỏe",
-    "start": 0.414,
-    "stop": 0.683,
+    "fragment": "xin",
+    "start": "0:0",
+    "stop": "0:324",
     "catchword": "true"
   },
   {
-    "fragment": "không",
-    "start": 0.683,
-    "stop": 1.201,
+    "fragment": "chào",
+    "start": "0:324",
+    "stop": "1:163",
     "catchword": "true"
   }
 ]

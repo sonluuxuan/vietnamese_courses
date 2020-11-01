@@ -1,14 +1,14 @@
 [
   {
-    "fragment": "xin",
-    "start": 0.0,
-    "stop": 0.324,
-    "catchword": "true"
+    "fragment": "tôi",
+    "start": "0:0",
+    "stop": "0:298",
+    "catchword": "false"
   },
   {
-    "fragment": "chào",
-    "start": 0.324,
-    "stop": 1.163,
+    "fragment": "khỏe",
+    "start": "0:298",
+    "stop": "0:981",
     "catchword": "true"
   }
 ]

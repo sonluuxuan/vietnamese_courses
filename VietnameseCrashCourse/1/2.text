@@ -1,14 +1,14 @@
 [
   {
-    "fragment": "chào buổi",
-    "start": 0.0,
-    "stop": 0.502,
-    "catchword": "false"
+    "fragment": "tạm",
+    "start": "0:0",
+    "stop": "0:174",
+    "catchword": "true"
   },
   {
-    "fragment": "sáng",
-    "start": 0.502,
-    "stop": 1.136,
+    "fragment": "biệt",
+    "start": "0:174",
+    "stop": "0:752",
     "catchword": "true"
   }
 ]

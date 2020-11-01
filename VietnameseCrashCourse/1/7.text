@@ -1,14 +1,8 @@
 [
   {
-    "fragment": "hẹn gặp",
-    "start": 0.0,
-    "stop": 0.477,
-    "catchword": "false"
-  },
-  {
-    "fragment": "ngày mai",
-    "start": 0.477,
-    "stop": 1.365,
+    "fragment": "đừng lo",
+    "start": "0:0",
+    "stop": "1:03",
     "catchword": "true"
   }
 ]
